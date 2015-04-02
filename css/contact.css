@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+#contents {
+	width: 950px;
+	margin: 8px auto 0 auto;
+}
+
+#contents p {
+	font-size: 13px;
+	color: #7A5A46;
+	margin-bottom: 30px;
+	line-height: 1.8em;
+	font-weight: bold;
+}
+
+#contents form {
+	margin-top: 30px;
+}
+
+#powered {
+	display: none;
+	color: #fff;
+	font-size: 10px;
+	letter-spacing: 0.1em;
+}
+
+#powered:hover {
+	text-decoration: underline;
+}
+
+#contents form textarea {
+	max-width: 800px;
+	max-height: 250px;
+}
+
+.q {
+	margin-bottom: 25px !important;
+}
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	font-size: 13px;
+	padding: 4px 0 2px 5px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.input_bt {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	width: 100px;
+	padding: 6px 0 4px 3px;
+	background: #f17326;
+	border: 0;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.input_bt:hover {
+	background: #f94;
+}

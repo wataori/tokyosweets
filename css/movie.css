@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#contents {
+	width: 950px;
+	margin: 8px auto 0 auto;
+}
+
+#contents ul {
+	float: left;
+	margin-left: 10px;
+}
+
+.img_1 {
+	margin-left: 0 !important;
+}
+
+#contents ul li {
+	position: relative;
+	width: 310px;
+	margin-bottom: 10px;
+	padding: 5px 0 3px 0;
+	background: #fff;
+	line-height: 18px;
+	color: #555;
+	font-size: 13px;
+	box-shadow: 0 1px 3px #bfab95;
+	-webkit-box-shadow: 0 1px 3px #bfab95;
+	-moz-box-shadow: 0 1px 3px #bfab95;
+	-pie-box-shadow: 0 1px 3px #bfab95;
+	behavior: url(/PIE-1.0beta4/PIE.htc);
+}
+
+#contents li p {
+	margin: 3px auto 0 auto;
+	text-align: center;
+}
+
+#contents li:hover {
+	background: #ffc;
+}

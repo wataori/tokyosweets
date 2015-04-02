@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+#contents {
+	width: 950px;
+	margin: 8px auto 0 auto;
+}
+
+#contents ul {
+	float: left;
+	width: 310px;
+	margin-left: 10px;
+}
+
+.img_1 {
+	margin-left: 0 !important;
+}
+
+.linkbox {
+	position: relative;
+	width: 290px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #fff;
+	line-height: 18px;
+	color: #555;
+	font-size: 13px;
+	cursor: pointer;
+	box-shadow: 0 1px 3px #bfab95;
+	-webkit-box-shadow: 0 1px 3px #bfab95;
+	-moz-box-shadow: 0 1px 3px #bfab95;
+	-pie-box-shadow: 0 1px 3px #bfab95;
+	behavior: url(/PIE-1.0beta4/PIE.htc);
+}
+
+.linkbox img {
+	display: block;
+	width: 288px;
+	margin-bottom: 5px;
+}
+
+.linkbox:hover {
+	background: #ffc;
+}
+
+.coming {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 98px !important;
+	height: 76px !important;
+}

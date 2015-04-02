@@ -1,0 +1,330 @@
+@charset "utf-8";
+
+/* -------------------------------
+Reset CSS
+----------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1.5;
+    color: #444;
+    font-size: 100%;
+    font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック',sans-serif;
+	-webkit-text-size-adjust: none;
+	word-wrap: break-word;
+	word-break: breal-all;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+    content: '';
+    content: none;
+}
+table, tr, th, td {
+	border-collapse: collapse;
+	border: 0;
+	border-spacing: 0;
+}
+:focus {
+    outline: 0;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;	
+}
+
+/* clearfix */
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*￥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+/* スクロールバーを常に表示 */
+*html body {  　　　　　/*IE6だけに適用*/
+   overflow-y:auto;
+}
+*+html body {　　　　　/*IE7だけに適用*/
+   overflow-y:auto;
+}
+body {
+   overflow-y:scroll;
+}
+
+body {
+	background: url(../images/bg.gif) repeat;
+}
+
+a img:hover {
+	opacity: 0.8;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+
+
+/* ヘッダー */
+#top_bar {
+	width: 100%;
+	height: 3px;
+	background: #7A5A46;
+}
+
+#hd {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: block;
+	float: left;
+	width: 270px;
+	height: 60px;
+	margin-top: 20px;
+}
+
+.social_bt {
+	float: right;
+	margin-top: 55px;
+}
+
+.social_bt li {
+	float: left;
+	margin-right: 10px;
+}
+
+.twitter_share_button {
+	width: 100px !important;
+}
+
+.hd_contact {
+	position: relative;
+	float: right;
+	margin-top: 57px;
+	padding-left: 17px;
+	background: url(../images/arrow.png) no-repeat;
+	font-size: 13px;
+}
+
+.hd_contact a {
+	color: #7A5A46;
+}
+
+.hd_contact a:hover {
+	text-decoration: underline;
+}
+
+#catch {
+	position: relative;
+	width: 930px;
+	margin: 5px auto 0 auto;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0 1px 3px #bfab95;
+	-webkit-box-shadow: 0 1px 3px #bfab95;
+	-moz-box-shadow: 0 1px 3px #bfab95;
+	-pie-box-shadow: 0 1px 3px #bfab95;
+	behavior: url(/PIE-1.0beta4/PIE.htc);
+}
+
+
+/* メニュー */
+#menu {
+	position: relative;
+	width: 930px;
+	margin: 5px auto 0 auto;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0 1px 3px #bfab95;
+	-webkit-box-shadow: 0 1px 3px #bfab95;
+	-moz-box-shadow: 0 1px 3px #bfab95;
+	-pie-box-shadow: 0 1px 3px #bfab95;
+	behavior: url(/PIE-1.0beta4/PIE.htc);
+}
+
+.menu_img {
+	display: block;
+	position: relative;
+	float: left;
+	width: 458px;
+	height: 300px;
+	border: 1px solid #ddd;
+	behavior: url(/PIE-1.0beta4/PIE.htc);
+}
+
+#menu ul {
+	float: right;
+	width: 450px;
+	background: #fff;
+	border: 1px solid #eee;
+}
+
+#menu ul li {
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+#menu ul li a {
+	display: block;
+	width: 150px;
+	height: 93px;
+	padding-top: 52px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#menu ul li a:first-letter {
+	font-size: 28px;
+}
+
+.color1 { background: #f17326;}
+.color2 { background: #16bffa;}
+.color3 { background: #73bc44;}
+.color4 { background: #fbbf0e;}
+.color0 { background: #b794ed;}
+.color5 { background: #ed9494;}
+
+#menu ul li a:hover {
+	color: #7A5A46;
+}
+
+.yet:hover {
+	color: #fff !important;
+}
+
+.menu_coming {
+	position: absolute;
+	top: 161px;
+	right: 161px;
+	width: 98px !important;
+	height: 76px !important;
+}
+
+.menu_current {
+	color: #7A5A46 !important;
+}
+
+.title_h2 {
+	width: 950px;
+	margin: 25px auto 10px auto;
+	color: #7A5A46;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.title_h2:first-letter {
+	color: #f17326;
+	font-size: 32px;
+}
+
+/* フッター */
+#footer {
+	width: 100%;
+	margin-top: 50px;
+	background: url(../images/bg.png) repeat;
+}
+
+.ft_area {
+	width: 950px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.sitemap {
+	float: left;
+	width: 250px;
+	margin-left: 30px;
+}
+
+.sitemap h2 {
+	font-size: 18px;
+	color: #7A5A46;
+	font-weight: bold;
+}
+
+.sitemap ul li {
+	margin-top: 10px;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+}
+
+.sitemap ul li a {
+	color: #7A5A46;
+	font-weight: bold;
+	text-shadow: 1px 1px #dedede;
+}
+
+.sitemap ul .current {
+	color: #f17326;
+	font-weight: bold;
+}
+
+.sitemap ul li a:hover {
+	color: #f17326;
+}
+
+.fb-like-box {
+	float: right;
+	background: #fff;
+}
+
+#copy {
+	padding: 10px 0;
+}
+
+#copy p {
+	text-align: center;
+	color: #7A5A46;
+	font-size: 12px;
+}
